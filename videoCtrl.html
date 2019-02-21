@@ -51,6 +51,8 @@ function initialize()
 	totalTime = 0;
 	
   var video = document.querySelector("video");
+	if(video)
+		alert(video.srcObject);
   
 	////////////////////////////////////////////////////////////
 	// setup arToolkitSource
